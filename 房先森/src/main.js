@@ -6,6 +6,7 @@ import "@/assets/css/common.css";
 import "@/assets/css/reset.css";
 import "@/assets/js/app.js";
 
+import  "/public/iconfont/iconfont.css"
 Vue.config.productionTip = false;
 
 import myButton from "@/components/Tools/Button.vue";
@@ -20,9 +21,9 @@ Vue.component("myInput", myInput);
 
 
 
-// index里使用了install方法 所以可以用use扩展全局方法
-import $loading from "@/components/Tools/Loading/index.js";
-Vue.use($loading);
+// // index里使用了install方法 所以可以用use扩展全局方法
+// import $loading from "@/components/Tools/Loading/index.js";
+// Vue.use($loading);
 
 import myStep from "@/components/Tools/Step/Step.vue";
 Vue.component("myStep", myStep);
@@ -37,7 +38,7 @@ import myAdd from "@/components/Tools/Add/Add.vue";
 Vue.component("myAdd", myAdd);
 
 new Vue({
-  router,
-  store,
-  render: (h) => h(App),
+    router,
+    store,
+    render: (h) => h(App),
 }).$mount("#app");

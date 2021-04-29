@@ -1,22 +1,20 @@
 <template>
   <div>
-    <my-swiper :list="list" autoplay></my-swiper>
+    <!-- <my-swiper :list="list" autoplay></my-swiper> -->
+    <i class="icon-close"> </i>
+
+    <p></p>
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
-    return {
- 
-    };
+    return {};
   },
-  mounted() {
-
-  },
-  components: {
-    mySwiper,
-  },
+  mounted() {},
+  // components: {
+  //   mySwiper,
+  // },
 };
 </script>
