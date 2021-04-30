@@ -6,6 +6,10 @@ import "@/assets/css/common.css";
 import "@/assets/css/reset.css";
 import "@/assets/js/app.js";
 
+import Vant from "vant";
+import "vant/lib/index.css";
+Vue.use(Vant);
+
 Vue.config.productionTip = false;
 
 import myButton from "@/components/Tools/Button.vue";
