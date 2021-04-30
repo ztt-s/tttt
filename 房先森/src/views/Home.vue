@@ -1,22 +1,18 @@
 <template>
   <div>
-    <my-swiper :list="list" autoplay></my-swiper>
+    <h1></h1>
   </div>
 </template>
 
 <script>
-
 export default {
   data() {
-    return {
- 
-    };
+    return {};
   },
-  mounted() {
-
-  },
-  components: {
-    mySwiper,
-  },
+  mounted() {},
+  methods: {},
 };
 </script>
+
+<style lang="scss">
+</style>

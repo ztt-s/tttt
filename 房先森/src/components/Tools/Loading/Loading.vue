@@ -2,7 +2,7 @@
   <div class="">
     <div class="loading center" v-if="show">
       <div class="inner">
-        <img src="@/assets/image/Loading.png" alt="" />
+        <!-- <img src="@/assets/image/Loading.png" alt="" /> -->
       </div>
     </div>
   </div>
