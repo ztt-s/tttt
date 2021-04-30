@@ -6,7 +6,10 @@ import "@/assets/css/common.css";
 import "@/assets/css/reset.css";
 import "@/assets/js/app.js";
 
-import  "/public/iconfont/iconfont.css"
+//引入 图标
+import "@/assets/iconfont/iconfont.css";
+import "@/assets/iconfont/demo.css";
+
 Vue.config.productionTip = false;
 
 import myButton from "@/components/Tools/Button.vue";
@@ -18,8 +21,6 @@ Vue.component("myInput", myInput);
 
 // import myLoading from "@/components/Tools/Loading/Loading.vue";
 // Vue.component("myLoading", myLoading);
-
-
 
 // // index里使用了install方法 所以可以用use扩展全局方法
 // import $loading from "@/components/Tools/Loading/index.js";
