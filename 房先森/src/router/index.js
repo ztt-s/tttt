@@ -5,13 +5,19 @@ Vue.use(VueRouter);
 
 const routes = [{
         path: "/",
-        redirect: "designer",
+        redirect: "assess",
     },
     {
         path: "/designer",
         name: "Designer",
         component: () =>
             import ("../views/Designer.vue"),
+    },
+    {
+        path: "/assess",
+        name: "Assess",
+        component: () =>
+            import ("../views/Assess.vue"),
     },
 
     {

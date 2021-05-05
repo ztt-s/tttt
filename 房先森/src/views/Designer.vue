@@ -158,8 +158,8 @@ export default {
 #font {
   border: 1px solid red;
   // overflow: hidden;
-  margin-top: 8rem;
-  height: 1.7rem;
+  margin-top: 7rem;
+  height: 2rem;
 
   padding-top: 0.2rem;
   margin-bottom: 10px;
