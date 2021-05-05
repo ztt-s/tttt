@@ -8,6 +8,7 @@ const routes = [
     path: "/",
     redirect: "/about",
   },
+  // home没有写东西
   {
     path: "/home",
     name: "home",
@@ -42,6 +43,10 @@ const routes = [
     path: "/room",
     name: "room",
     component: () => import("../views/Room.vue"),
+  }, {
+    path: "/shisi",
+    name: "shisi",
+    component: () => import("../views/Shisi.vue"),
   },
 ];
 
