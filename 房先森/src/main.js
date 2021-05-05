@@ -21,20 +21,24 @@ Vue.component("myInput", myInput);
 
 
 // index里使用了install方法 所以可以用use扩展全局方法
-import $loading from "@/components/Tools/Loading/index.js";
-Vue.use($loading);
+// import $loading from "@/components/Tools/Loading/index.js";
+// Vue.use($loading);
 
-import myStep from "@/components/Tools/Step/Step.vue";
-Vue.component("myStep", myStep);
+// import myStep from "@/components/Tools/Step/Step.vue";
+// Vue.component("myStep", myStep);
 
-import myPagination from "@/components/Tools/Pagination/Pagination.vue";
-Vue.component("myPagination", myPagination);
+// import myPagination from "@/components/Tools/Pagination/Pagination.vue";
+// Vue.component("myPagination", myPagination);
 
-import myMask from "@/components/Tools/Mask/Mask.vue";
-Vue.component("myMask", myMask);
+// import myMask from "@/components/Tools/Mask/Mask.vue";
+// Vue.component("myMask", myMask);
 
-import myAdd from "@/components/Tools/Add/Add.vue";
-Vue.component("myAdd", myAdd);
+// import myAdd from "@/components/Tools/Add/Add.vue";
+// Vue.component("myAdd", myAdd);
+
+//引入 图标
+import "@/assets/iconfont/iconfont.css";
+import "@/assets/iconfont/demo.css";
 
 new Vue({
   router,

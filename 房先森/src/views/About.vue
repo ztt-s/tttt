@@ -1,9 +1,9 @@
 <template>
   <div class="box">
-    <img src="../assets/image/process1.jpg" alt="" class="img" />
-    <img src="../assets/image/process2.jpg" alt="" />
-    <img src="../assets/image/process3.png" alt="" />
-    <img src="../assets/image/process4.jpg" alt="" />
+    <img src="../assets/image/切图/process/process1.jpg" alt="" class="img" />
+    <img src="../assets/image/切图/process/process2.jpg" alt="" />
+    <img src="../assets/image/切图/process/process3.png" alt="" />
+    <img src="../assets/image/切图/process/process4.jpg" alt="" />
 
     <div class="home">
       <p>
@@ -25,9 +25,17 @@
       </ul>
 
       <div class="about">
-        <img src="../assets/image/close.png" class="aboyt_img" alt="" />
+        <img
+          src="../assets/image/切图/common/icon_close.png"
+          class="aboyt_img"
+          alt=""
+        />
         <i
-          ><img src="../assets/image/bottom.png" class="about_zhong" alt="" />
+          ><img
+            src="../assets/image/切图/quoten_bottom.png"
+            class="about_zhong"
+            alt=""
+          />
         </i>
 
         <button>免费获取标价</button>
@@ -46,7 +54,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .img {
   width: 100%;
   height: 4rem;
@@ -97,31 +105,31 @@ li:nth-child(1) {
 
 .about {
   width: 100%;
-  height: 100px;
+  height: 2rem;
   background-color: #2e2e2e;
   .aboyt_img {
-    width: 30px;
-    height: 30px;
+    width: 0.5rem;
+    height: 0.5rem;
     position: relative;
-    top: -23px;
+    top: -0.01rem;
   }
   .about_zhong {
-    width: 220px;
-    height: 58px;
+    width: 4rem;
+    height: 1rem;
     position: relative;
-    top: 14px;
-    left: 10px;
+    top: 0.6rem;
+    left: 0.3rem;
   }
   button {
-    width: 100px;
-    height: 30px;
+    width: 2.3rem;
+    height: 0.5rem;
     color: #fff;
     background-color: #feb605;
     border: 1px solid #feb605;
-    border-radius: 50px;
+    border-radius: 0.5rem;
     position: relative;
-    top: -17px;
-    left: 17px;
+    top: -0.01rem;
+    left: 0.5rem;
   }
 }
 </style>
