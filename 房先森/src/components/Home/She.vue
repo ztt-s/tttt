@@ -45,7 +45,7 @@ export default {
 <style lang="scss" scoped>
 
 .nan2 {
-  background: rgb(199, 195, 195);
+ background: rgb(244,244,244);
   //   height: 400px;
   display: flex;
   .gray {

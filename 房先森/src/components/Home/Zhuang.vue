@@ -25,7 +25,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .nan1 {
-  background: rgb(199, 195, 195);
+  background: rgb(244,244,244);
   display: flex;
   width: 100%;
   

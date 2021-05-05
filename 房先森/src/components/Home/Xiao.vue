@@ -14,7 +14,7 @@
         </div>
         <div class="d2">
           <div class="t">换一批 <i class="iconfont icon-change"></i></div>
-          <div class="t">更多设计师 <i class="iconfont icon-more"></i></div>
+          <div class="t">更多效果图 <i class="iconfont icon-more"></i></div>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
 <style lang="scss" scoped>
 .xiao {
   width: 100%;
-  background: rgb(199, 195, 195);
+ background: rgb(244,244,244);
     display: flex;
 }
  .gray {

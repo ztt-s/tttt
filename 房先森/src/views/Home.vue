@@ -8,6 +8,9 @@
     <She/>
     <Xiao/>
     <Gong/>
+    <Lue/>
+    <Chuan/>
+    <Fu/>
     <!-- <my-swiper :list="list" autoplay></my-swiper> -->
   </div>
 </template>
@@ -21,6 +24,9 @@ import Zhuang from '../components/Home/Zhuang'
 import She from '../components/Home/She'
 import Xiao from '../components/Home/Xiao'
 import Gong from '../components/Home/Gong'
+import Lue from '../components/Home/Lue'
+import Chuan from '../components/Home/Chuan'
+import Fu from '../components/Home/Fu'
 
 export default {
   data() {
@@ -39,7 +45,10 @@ export default {
     Zhuang,
     She,
     Xiao,
-    Gong
+    Gong,
+    Lue,
+    Chuan,
+    Fu
   },
 };
 </script>

@@ -24,7 +24,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .xiang1 {
-  background: rgb(199, 195, 195);
+   background: rgb(244,244,244);
   display: flex;
 }
 .gray {
@@ -37,7 +37,7 @@ export default {
       line-height: 60px;
    }
     b {
-        font-size: 26px;
+        font-size: 27px;
       }
       span {
         margin-left: 10px;

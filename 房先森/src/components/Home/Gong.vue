@@ -9,7 +9,7 @@
             <p><b>重汽嘉泽苑7栋</b> <span>泥木工程</span></p>
              <div class="d2">
           <div class="t">换一批 <i class="iconfont icon-change"></i></div>
-          <div class="t">更多设计师 <i class="iconfont icon-more"></i></div>
+          <div class="t">更多工地直播 <i class="iconfont icon-more"></i></div>
         </div>
         </div>
     </div>
@@ -26,7 +26,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .gd{
-    background: gray;
+ background: rgb(244,244,244);
     width: 100%;
         display: flex;
 }
