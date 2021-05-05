@@ -37,6 +37,10 @@ Vue.component("myMask", myMask);
 import myAdd from "@/components/Tools/Add/Add.vue";
 Vue.component("myAdd", myAdd);
 
+//引入 图标
+import  "@/assets/iconfont/iconfont.css";
+import  "@/assets/iconfont/demo.css";
+
 new Vue({
     router,
     store,
