@@ -27,11 +27,26 @@ const routes = [{
             import ("../views/Designers.vue"),
     },
     {
+        // 登录页面
         path: "/comment",
         name: "Comment",
         component: () =>
             import ("../views/Comment.vue"),
     },
+    {
+        // 装修贷款
+        path: "/loan",
+        name: "Loan",
+        component: () =>
+            import ("../views/Loan.vue"),
+    },
+    // {
+    //     // 装修贷款
+    //     path: "/zyp",
+    //     name: "Zyp",
+    //     component: () =>
+    //         import ("../views/Zyp.vue"),
+    // },
     // {
     //     component: "/designer",
     //     name: "designer",

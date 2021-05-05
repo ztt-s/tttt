@@ -35,6 +35,11 @@
           <span id="name">陈冲</span>
           <span id="green">优秀</span>
           <span> 人气</span>
+          <p>
+            擅长风格：现代/混搭/欧式/田园
+          </p>
+          <br />
+        
           <br />
         </div>
       </li>
@@ -111,9 +116,14 @@ export default {
       float: left;
     }
     #reight {
+      margin-top: -0.3rem;
       width: 5.5rem;
       float: left;
+      // background: chartreuse;
       // background: royalblue;
+      p{
+        margin-top: -0.2rem;
+      }
     }
   }
 }
