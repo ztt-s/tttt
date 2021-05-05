@@ -6,7 +6,8 @@ import "@/assets/css/common.css";
 import "@/assets/css/reset.css";
 import "@/assets/js/app.js";
 
-import  "/public/iconfont/iconfont.css"
+
+// import  "/public/iconfont/iconfont.css"
 Vue.config.productionTip = false;
 
 import myButton from "@/components/Tools/Button.vue";
@@ -36,6 +37,10 @@ Vue.component("myMask", myMask);
 
 import myAdd from "@/components/Tools/Add/Add.vue";
 Vue.component("myAdd", myAdd);
+
+// 引入图标
+import "@/assets/iconfont/iconfont.css";
+import "@/assets/iconfont/demo.css";
 
 new Vue({
     router,
